@@ -36,6 +36,15 @@ export default function Page() {
                     <RuntimeContextCard />
                 </section>
             )}
+
+            <section className="flex flex-col gap-4">
+                <h2>New: Marketing AI Copilot</h2>
+                <p>Need an assistant for strategy, channel planning, and campaign ideas? Start here.</p>
+                <Link href="/marketing-ai" className="btn sm:max-w-64">
+                    Open Marketing AI
+                </Link>
+            </section>
+
             <section className="flex flex-col gap-4">
                 <Markdown content={preDynamicContentExplainer} />
                 <RandomQuote />
